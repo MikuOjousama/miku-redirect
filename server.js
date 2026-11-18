@@ -9,7 +9,7 @@ http.createServer((req, res) => {
   destination.pathname = incoming.pathname;
   destination.search = incoming.search;
 
-  res.writeHead(302, {
+  res.writeHead(301, {
     Location: destination.toString(),
     "Cache-Control": "no-store"
   });
