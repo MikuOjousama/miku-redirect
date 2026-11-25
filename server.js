@@ -1,6 +1,6 @@
 const http = require("node:http");
 
-const TARGET = "https://hatsunemiku.isroot.in";
+const TARGET = "https://mikufans.site";
 
 http.createServer((req, res) => {
   const incoming = new URL(req.url, "http://localhost");
